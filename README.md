@@ -10,7 +10,7 @@
 - yarn dev <br> 
 - Configure file structure <br> 
 - Configure route <br>
-  On tsconfig.json file :  <br>
+  On <b>tsconfig.json</b> file :  <br>
 
   "baseUrl": "./src/", <br>
     "paths" : { <br>
