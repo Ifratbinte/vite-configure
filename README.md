@@ -1,7 +1,6 @@
 # vite-configure
 
 - Install vite With Yarn:
-<br>  
     $ yarn create vite <br>
     write project name <br>
     select language <br>
