@@ -17,7 +17,7 @@
       "#components/*" : ["./components/*"], <br>
     } <br> 
 
-  On vite.config.ts file : <br>
+  On <b>vite.config.ts</b> file : <br />
 
   import { defineConfig } from "vite"; <br>
   resolve: { <br>
