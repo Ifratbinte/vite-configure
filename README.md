@@ -8,9 +8,7 @@
 
 - yarn install <br>
 - yarn dev <br> 
-
 - Configure file structure <br> 
-
 - Configure route <br>
   On tsconfig.json file :  <br>
 
@@ -24,7 +22,7 @@
   import { defineConfig } from "vite"; <br>
   resolve: { <br>
     alias: { <br>
-      "#assets": resolve(__dirname, "./src/assets/"), <br>
+      "#components": resolve(__dirname, "./src/components/"), <br>
     }, <br>
   }, <br>
 
