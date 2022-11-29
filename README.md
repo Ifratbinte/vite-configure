@@ -1,31 +1,32 @@
 # vite-configure
 
 - Install vite With Yarn:
-    $ yarn create vite
-    write project name
-    select language
-    select framework
+<br>  
+    $ yarn create vite <br>
+    write project name <br>
+    select language <br>
+    select framework <br> <br>
 
-- yarn install
-- yarn dev <!-- for run project -->
+- yarn install <br>
+- yarn dev <!-- for run project --> <br> <br>
 
-- Configure file structure
+- Configure file structure <br> <br>
 
-- Configure route
-  On tsconfig.json file : 
+- Configure route <br>
+  On tsconfig.json file :  <br>
 
-  "baseUrl": "./src/",
-    "paths" : {
-      "#components/*" : ["./components/*"],
-    }
+  "baseUrl": "./src/", <br>
+    "paths" : { <br>
+      "#components/*" : ["./components/*"], <br>
+    } <br> <br>
 
-  On vite.config.ts file :
+  On vite.config.ts file : <br> <br>
 
-  import { defineConfig } from "vite";
-  <!-- into defineConfig function -->
-  resolve: {
-    alias: {
-      "#assets": resolve(__dirname, "./src/assets/"),
-    },
-  },
+  import { defineConfig } from "vite"; <br>
+  <!-- into defineConfig function --> <br>
+  resolve: { <br>
+    alias: { <br>
+      "#assets": resolve(__dirname, "./src/assets/"), <br>
+    }, <br>
+  }, <br>
 
