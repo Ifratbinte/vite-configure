@@ -6,7 +6,7 @@
     select language <br>
     select framework <br> <br>
 
-- cd [project_name]
+- cd [project_name] <br>
 - yarn install <br>
 - yarn dev <br> 
 - Configure file structure <br> 
@@ -26,4 +26,7 @@
       "#components": resolve(__dirname, "./src/components/"), <br>
     }, <br>
   }, <br>
+
+- _directory error :
+ npm i -D @types/node
 
