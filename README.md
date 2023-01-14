@@ -6,6 +6,7 @@
     select language <br>
     select framework <br> <br>
 
+- cd [project_name]
 - yarn install <br>
 - yarn dev <br> 
 - Configure file structure <br> 
